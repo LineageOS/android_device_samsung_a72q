@@ -10,10 +10,6 @@ vendor/etc/audconf/OPEN/Speaker_cal.acdb
 vendor/etc/audconf/OPEN/Hdmi_cal.acdb
 vendor/etc/audconf/OPEN/Handset_cal.acdb
 
-# Bluetooth
-vendor/firmware/apbtfw11.tlv
-vendor/firmware/crbtfw21.tlv
-
 # Camera
 vendor/lib/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
