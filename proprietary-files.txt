@@ -48,8 +48,6 @@ vendor/lib/hw/com.samsung.chi.override.so
 vendor/lib64/hw/com.samsung.chi.override.so
 vendor/lib/libIMUSensor.so
 vendor/lib64/libIMUSensor.so
-vendor/lib/libface_landmark.arcsoft.so
-vendor/lib64/libface_landmark.arcsoft.so
 vendor/lib/libsec2qc_conversion.so
 vendor/lib64/libsec2qc_conversion.so
 vendor/lib/libvdis_interface.so
