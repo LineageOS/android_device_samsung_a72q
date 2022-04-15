@@ -27,3 +27,6 @@ TARGET_SCREEN_DENSITY := 450
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := a72q
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
