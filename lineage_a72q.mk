@@ -30,8 +30,6 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Boot animation
-TARGET_BOOTANIMATION_PRELOAD := true
-TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
@@ -44,3 +42,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_SHIPPING_API_LEVEL := 30
+
+# Fingerprint
+BUILD_FINGERPRINT := "samsung/a72qnsxx/qssi:12/SP1A.210812.016/A725FXXU4BVE3:user/release-keys"
+PRIVATE_BUILD_DESC := "a72qnsxx-user 12 SP1A.210812.016 A725FXXU4BVE3 release-keys"
