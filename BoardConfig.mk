@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/a72q
+DEVICE_PATH := device/samsung/a72q
 
 include device/samsung/sm7125-common/BoardConfigCommon.mk
 
