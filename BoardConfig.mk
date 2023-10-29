@@ -22,6 +22,12 @@ include device/samsung/sm7125-common/BoardConfigCommon.mk
 TARGET_KERNEL_CONFIG        := vendor/lineage-a72q_defconfig
 BOARD_NAME                  := SRPTJ06B001
 
+# Camera
+SOONG_CONFIG_NAMESPACES += samsungCameraVars
+SOONG_CONFIG_samsungCameraVars += extra_ids
+# ID=52 is telephoto
+SOONG_CONFIG_samsungCameraVars_extra_ids := 52
+
 # Display
 TARGET_SCREEN_DENSITY := 450
 
