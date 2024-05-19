@@ -15,8 +15,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_a72q.mk
-
-COMMON_LUNCH_CHOICES := \
-    lineage_a72q-userdebug \
-    lineage_a72q-user \
-    lineage_a72q-eng
