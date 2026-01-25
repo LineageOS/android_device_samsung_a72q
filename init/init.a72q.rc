@@ -95,6 +95,9 @@ on boot
     chown radio system /sys/power/cpufreq_table
     chmod 444 /sys/power/cpufreq_table
 
+# Fingerprint
+    write /sys/class/sec/tsp/cmd "set_fod_rect,426,2031,654,2259"
+
 # Pageboostd
 on property:sys.boot_completed=1
     start pageboostd
