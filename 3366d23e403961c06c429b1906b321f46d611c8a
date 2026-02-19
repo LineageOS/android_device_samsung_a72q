@@ -16,6 +16,24 @@
       "message": "Wrong Change-Id. Use https://review.lineageos.org/q/I3188b1085319eef107a6209e275bf64b4a95315c",
       "revId": "3366d23e403961c06c429b1906b321f46d611c8a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae0130a2_bcceab31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 25276
+      },
+      "writtenOn": "2026-02-19T17:39:16Z",
+      "side": 1,
+      "message": "This is a commit created by @seda18@rolmail.net himself and not a cherry-pick, so this is fine.",
+      "parentUuid": "6b07db76_584a460b",
+      "revId": "3366d23e403961c06c429b1906b321f46d611c8a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
