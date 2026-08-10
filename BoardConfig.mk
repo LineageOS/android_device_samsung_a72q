@@ -20,7 +20,6 @@ include device/samsung/sm7125-common/BoardConfigCommon.mk
 
 # Kernel
 TARGET_KERNEL_CONFIG        := vendor/lineage-a72q_defconfig
-BOARD_NAME                  := SRPTJ06B001
 
 # Display
 TARGET_SCREEN_DENSITY := 450
