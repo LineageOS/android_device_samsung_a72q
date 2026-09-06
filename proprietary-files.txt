@@ -10,6 +10,9 @@ vendor/etc/audconf/OPEN/Speaker_cal.acdb
 vendor/etc/audconf/OPEN/Hdmi_cal.acdb
 vendor/etc/audconf/OPEN/Handset_cal.acdb
 
+# Audio
+vendor/etc/SoundBoosterParam.txt
+
 # Camera
 vendor/lib/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
